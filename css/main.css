@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato|Raleway:400,300);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic|Raleway:400,300);
 
 body {
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -26,6 +26,15 @@ h3 {
     font-size: 125%;
 }
 
+p, h1, h2, h3 {
+    margin: 0;
+}
+
+em {
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: italic;
+}
+
 header, footer, section {
     padding: 5px;
     margin: 1em;
@@ -41,6 +50,7 @@ footer {
 
 header {
     background-color: rgba(70,70,70,0.5);
+    margin-top: 0;
 }
 
 header p {
